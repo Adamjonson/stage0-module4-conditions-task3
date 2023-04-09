@@ -2,6 +2,9 @@ package school.mjc.stage0.conditions.task3;
 
 public class DaysInMonthPrinter {
     public void amountOfDays(int month) {
+        if(month<1 && month > 12){
+            System.out.println("wrong number");
+        }
         if(month % 2 == 1){
             System.out.println("31");
         }
@@ -10,8 +13,6 @@ public class DaysInMonthPrinter {
         }else {
             System.out.println("28");
         }
-        if(month<1 && month > 12){
-            System.out.println("wrong number");
-        }
+
     }
 }

@@ -15,7 +15,7 @@ public class Seasons {
             System.out.println("Winter");
         }
         if (month < 1 || month > 12){
-            System.out.println("wrong number");
+            System.out.println("wrong number!");
         }
     }
 }
