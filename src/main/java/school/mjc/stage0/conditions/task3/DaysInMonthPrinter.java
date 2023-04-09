@@ -8,7 +8,7 @@ public class DaysInMonthPrinter {
         if(month % 2 == 1){
             System.out.println("31");
         }
-        if (month % 2 == 0 && month != 2){
+        if (month % 2 == 0 && month != 2 && month > 0){
             System.out.println("30");
         }else {
             System.out.println("28");
